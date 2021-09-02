@@ -38,6 +38,7 @@ while True:
     for passage in world ["passages"]:
       if passage["name"] == current:
         current_location = passage
+        
 
     # Display passage (render the world)
     print(current_location["name"])
